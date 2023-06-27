@@ -1,0 +1,103 @@
+
+	                     <div class="box0">
+
+                              <br />
+    
+
+                  <div class="box1">
+
+  
+                      <div class="boxl">
+  
+                          <div class="boxchara">
+                          <a href="images/イラスト/umi.png" rel="lightbox"><img src="images/イラスト/top1.png" width="100%" style="margin-bottom:10px;" /></a>
+                      </div>
+
+                      <div class="box3"> 
+                      <p><span class="style12">「pool」</span><br />
+                      汐崎　渚</p>
+                      </div>
+                      誕生日：4/9<br />
+                      年齢：20歳<br />
+                      身長：171cm<br /><br />
+                      明るい性格の大学生。<br />
+                      イベント事が大好きで人の誕生日などは一度も欠かした事は無い。苦手なものは虫。視界に入れることすらできないほど。
+
+
+                     </div>
+                     <!-- キャラ01ここまで -->
+
+                          
+                            <div class="boxr">
+                             <div class="boxchara">
+                            
+                                <a href="images/イラスト/hara.png" rel="lightbox"><img src="images/イラスト/top2.png" width="100%" style="margin-bottom:10px;" /></a>
+                                </div>
+		
+   
+                                <div class="box3"> 
+                                <p><span class="style12">「時雨」</span><br />
+                                浪川　時雨</p>
+                                 </div>
+                                 誕生日：6/21<br />
+                                 年齢：25歳<br />
+                                 身長：182cm<br /><br />
+                                 古着屋に勤務している少し変わり者な人物。<br />
+                                 情報通で、誰も知らないような秘密を持っている。彼に情報を聞きたいときは情報量（甘いもの）が必要。
+
+
+
+                                 </div>
+
+                                 </div>
+	      
+				     
+				     <br>
+				                            <!-- キャラ二段目始まり -->
+<div class="box1">
+<!-- キャラクター03 -->
+<div class="boxl">
+  
+<div class="boxchara">
+<a href="images/イラスト/sports.png" rel="lightbox"><img src="images/イラスト/イラスト7ko.png" width="100%" style="margin-bottom:10px;" /></a>
+</div>
+
+<div class="box3"> 
+<p><span class="style12">「アルバイト」</span><br />
+坂埼　茜</p>
+</div>
+誕生日：12/24<br />
+年齢：18歳<br />
+身長：175cm<br /><br />
+秋葉原のコンセプトカフェでアルバイトをしている高校生。。<br />
+ツンデレな性格で人見知り。人見知りを直す為にアルバイトを始めた。好きなものは辛いもの。
+
+
+</div>
+
+<!-- キャラクター03ここまで -->
+
+<!-- キャラクター04 -->
+<div class="boxr">
+  
+<div class="boxchara">
+<a href="images/イラスト/kos.png" rel="lightbox"><img src="images/イラスト/kos-top.png" width="100%" style="margin-bottom:10px;" /></a>
+</div>
+
+<div class="box3"> 
+<p><span class="style12">「コスプレ男子」</span><br />
+夏目　宗次郎</p>
+</div>
+誕生日：8/6<br />
+年齢：16歳<br />
+身長：169cm<br /><br />
+コスプレが趣味の高校生。。<br />
+自分の名前がコンプレックスで、普段は「棗」と名乗っている。本名で呼ばれると怒る。
+
+
+</div>
+<!-- キャラクター04ここまで -->
+</div>
+<!-- キャラ二段目ここまで -->
+	      
+	     </div>

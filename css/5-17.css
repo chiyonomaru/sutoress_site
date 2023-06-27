@@ -1,0 +1,15 @@
+
+画面全体に効果を設定したい場合は、下記のように設定する。
+
+#wrapper{
+/*描画されるテキストを中央寄せにする*/
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#particle{
+    width:100%;
+	height: 100vh;
+	vertical-align: bottom;/*canvasタグ下に余白が生まれるのを防ぐ*/
+}
