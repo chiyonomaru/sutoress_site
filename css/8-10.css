@@ -1,23 +1,28 @@
 @charset "utf-8";
 
 /*========= レイアウトのためのCSS ===============*/
-p{
+.TextTyping {
   text-align: center;
   margin: 20px 0;
   font-size: 1.5rem;
-  letter-spacing: .5em;
+  letter-spacing: .5e
     word-break : break-all;
+	
 }
 
 .TextTyping {
   text-align: center;
+	
 }
 
 /*========= タイピング ===============*/
 
-.TextTyping span {
+.TextTyping p {
   display: none;
+	margin-top: 40px;
+	
 }
+
 
 /*文字列後ろの線の設定*/
 .TextTyping::after {
@@ -29,3 +34,321 @@ p{
   from{opacity:0}
   to{opacity:1}
 }
+
+/*==================================================
+　印象編　8-16 テキストが滑らかに出現
+===================================*/
+
+
+span.smoothText {
+
+  overflow: hidden;
+
+  display: block;
+}
+
+
+span.smoothTextTrigger{
+	
+  transition: .8s ease-in-out;
+
+  transform: translate3d(0,100%,0) skewY(12deg);
+
+  transform-origin: left;
+	display: block;
+
+}
+
+
+span.smoothTextTrigger.smoothTextAppear{
+    
+  
+  transform: translate3d(0,0,0) skewY(0);
+}
+
+
+
+@charset "utf-8";
+
+/*========= レイアウトのためのCSS ===============*/
+.TextTyping {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.5rem;
+  letter-spacing: .5e
+    word-break : break-all;
+}
+
+.TextTyping {
+  text-align: center;
+	margin-top: 40px;
+}
+
+/*========= タイピング ===============*/
+
+.TextTyping p {
+  display: none;
+}
+
+
+/*文字列後ろの線の設定*/
+.TextTyping::after {
+  content: "|";
+  animation: typinganime .8s ease infinite;
+}
+
+@keyframes typinganime{
+  from{opacity:0}
+  to{opacity:1}
+}
+
+/*==================================================
+　印象編　8-16 テキストが滑らかに出現
+===================================*/
+
+
+span.smoothText {
+
+  overflow: hidden;
+
+  display: block;
+}
+
+
+span.smoothTextTrigger{
+	
+  transition: .8s ease-in-out;
+
+  transform: translate3d(0,100%,0) skewY(12deg);
+
+  transform-origin: left;
+	display: block;
+
+}
+
+
+span.smoothTextTrigger.smoothTextAppear{
+    
+  
+  transform: translate3d(0,0,0) skewY(0);
+}
+
+
+
+
+
+
+
+/* footer */
+
+#footer small{
+    position: fixed;
+    display: block;
+    left:0;
+    top:50%;
+    transform: rotate(-90deg);
+    text-transform: uppercase;
+    z-index: 2;
+    line-height: 1;
+    letter-spacing: 0.1em;
+}
+
+#footer p{
+    position: fixed;
+    display: block;
+    right:0;
+    top:50%;
+    transform: rotate(90deg);
+    text-transform: uppercase;
+    z-index: 2;
+    line-height: 1;
+    letter-spacing: 0.1em;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+button {
+  overflow: visible;
+  
+}
+
+button, select {
+  text-transform: none;
+   
+}
+
+button, input, select, textarea {
+  color: #fff;
+  font: inherit;
+   
+}
+
+input {
+  line-height: normal;
+  
+}
+
+
+#main {
+  border: solid 1px #fff;
+   background-color: #444;
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+   background-color: #32373c
+}
+
+h1 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+
+  margin: -0.512em auto;
+  width: 80px;
+}
+
+.icon_wrapper {
+  margin: 50px auto 0;
+  width: 100%;
+  
+}
+
+.icon {
+  display: block;
+  fill: #fff;
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.email {
+  float: right;
+  width: 45%;
+}
+
+input[type='text'], [type='email'], select, textarea {
+  background: none;
+  border: none;
+  border-bottom: solid 2px #fff;
+  color: #fff;
+  font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0em 0 1.875em 0;
+  padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+  outline: none;
+  padding: 0 0 0.875em 0;
+     color: #fff;
+}
+
+.message {
+  float: none;
+  
+}
+
+.name {
+  float: left;
+  width: 45%;
+}
+
+#disabled hidden selected
+
+select {
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  
+}
+
+select::-ms-expand {
+  display: none;
+  
+}
+
+.subject {
+  width: 100%;
+   color: #fff;
+  background-color:#;
+}
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+  line-height: 150%;
+  height: 150px;
+  resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+:-moz-placeholder { 
+  color: #fff;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #fff;
+  color: #fff;
+
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+   font-family: fot-tsukuardgothic-std,sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+	 border-radius: 7px;
+}
+
+#form_button:hover {
+  background: #474544;
+  color: #F2F3EB;
+}
+
