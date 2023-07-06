@@ -161,6 +161,10 @@ header h1 {
 	 position: fixed;
 }
 
+#TextTyping p{
+	font-size:15px;
+}
+
 #backTop  {
   max-width: 100%;
   width: 100%;
@@ -576,7 +580,7 @@ aside p {
 }
 .item {
   border-radius: 10px;
-  background: #e8e0d4;
+  background: #e
   padding: 18px;
   text-align: center;
 	
@@ -588,6 +592,7 @@ img {
 }
 p {
   text-align: center;
+font-size:15px;
 }
 
 
@@ -604,7 +609,7 @@ p {
 }
 .item {
   border-radius: 10px;
-  background: #e8e0d4;
+  background: #
   padding: 18px;
   text-align: center;
 	margin:10px;
@@ -631,7 +636,7 @@ p {
 }
 .item {
   border-radius: 10px;
-  background: #e8e0d4;
+  background: #
   padding: 18px;
   text-align: center;
 	margin:10px;
@@ -658,7 +663,7 @@ p {
 }
 .item {
   border-radius: 10px;
-  background: #e8e0d4;
+  background: #
   padding: 18px;
   text-align: center;
 	margin:10px;
@@ -670,6 +675,7 @@ img {
 }
 p {
   text-align: center;
+	font-size:15px;
 }
 	
 }
