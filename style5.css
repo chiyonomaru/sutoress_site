@@ -458,6 +458,9 @@ aside {
   }
 }
 
+.font_test {    font-size: px;    /* 文字サイズ指定 */
+			color: #F44336;     /* 文字色指定 */}
+
 .back {
   width: 100%;
   margin-bottom: 10px;
