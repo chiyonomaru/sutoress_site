@@ -16,6 +16,7 @@ font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
+font-color:#444;
 
 }
 
@@ -348,7 +349,7 @@ aside {
 #info2 p {
   font-size: 16px;
    display: inline-block;
-    color: #444;
+    font-color:#444;
   text-align: left;
 }
 #info2 p span {
@@ -553,7 +554,7 @@ article h1 {
 article p {
     margin-top: 1rem;
     margin-bottom: 2rem;
-   color: #696969;
+   font-color:#444;
 }
 aside  {
 　margin-bottom: 5rem;
