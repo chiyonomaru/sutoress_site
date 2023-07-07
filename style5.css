@@ -601,23 +601,21 @@ font-size:15px;
 
 .grid {
   display: grid;
-  gap: 30px;
-   grid-template-columns: repeat(4, 200px);
+   grid-template-columns: repeat(, 200px);
 }
 .item {
-  border-radius: 10px;
   background: #
-  padding: 18px;
+  padding: 15px;
   text-align: center;
 	margin:10px;
 }
 img {
-  width: 89%;
-  height: 30p;
-	margin-top:20px;
+  width: 100%;
 }
 p {
   text-align: center;
+	font-color:#444;
+	margin-top:-30px;
 }
 	
 }
