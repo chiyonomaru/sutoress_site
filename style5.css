@@ -8,7 +8,7 @@
 }
 
 body {
- font-family: sans-serif;
+ font-family: sans-s
   font-family: FOT-花風テクノ Std,sans-serif;
 font-weight: 700;
   font-size: 16px;
@@ -392,7 +392,7 @@ aside {
 .stepbar {
   margin: 0 auto;
   width: 80%;
-	margin-top:30px;
+	margin-top:90px;
 	margin-bottom:40px;
 }
 
@@ -587,7 +587,7 @@ aside p {
 	
 }
 img {
-  width: 109%;
+  width: 9%;
   height: auto;
 	margin:auto;
 }
@@ -661,14 +661,15 @@ p {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 .item {
-
+  margin:auto;
   background: #
   padding: 18px;
   text-align: center;
 	margin:10px;
+	width:50
 }
 img {
-  width: 89%;
+  width: 60%;
   height: 30p;
 	margin-top:20px;
 }
