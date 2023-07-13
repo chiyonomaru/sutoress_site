@@ -184,7 +184,7 @@ header h1 {
   display: flex;
   line-height: 200px;
 
-  border-radius: 50%;
+  border-radius: 50
   
   text-align: center;
 }
@@ -494,7 +494,7 @@ a.btn_27:hover {
 img{
 	width:100%;
     vertical-align: bottom;
-     border-radius: 20px;
+    
 }
 
 
@@ -634,7 +634,7 @@ p {
 	margin-top:50px;
 }
 .item {
-  border-radius: 10px;
+
   background: #
   padding: 18px;
   text-align: center;
@@ -661,7 +661,7 @@ p {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 .item {
-  border-radius: 10px;
+
   background: #
   padding: 18px;
   text-align: center;
@@ -699,7 +699,7 @@ p {
 	
 .skill img{
    width: 100%;
-   border-radius: 50%;
+
 	
 	background-color:#fff;
 	margin:auto;
@@ -739,7 +739,7 @@ p {
 	
 .skill img{
    width: 100%;
-   border-radius: 50%;
+
 	border: solid 3px #000;
 	
 	background-color:#fff;
@@ -759,38 +759,6 @@ p {
 
 }
 
-.balloon-006 {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    max-width: 300px;
-    margin-top: 49px;
-    padding: .8em 1.2em;
-    border: 3px solid #000000;
-    border-radius: 12px;
-    background-color: #fff;
-    color: #333333;
-}
-
-.balloon-006::before,
-.balloon-006::after {
-    position: absolute;
-    top: -15px;
-    width: 30px;
-    height: 15px;
-    clip-path: polygon(50% 0, 0 100%, 100% 100%);
-    content: '';
-	
-}
-
-.balloon-006::before {
-    background-color: #000000;
-}
-
-.balloon-006::after {
-    top: -11px;
-    background-color: #fff;
-}
 
 .layout {
   width: 100%;
@@ -811,28 +779,14 @@ footer {
 	margin-bottom:60%;
 }
 
-#page_top{
-  width: 50px;
-  height: 50px;
-  position: fixed;
-  right: 0;
-  bottom: -50px;
 
-  opacity: 0.6;
-  border-radius: 50%;
-   
-    bottom: 20px;
-    right: 10px;
-}
 
 #page_top{
   width: 50px;
   height: 50px;
   position: fixed;
   right: 0;
-  bottom: -50px;
-  opacity: 0.6;
-  border-radius: 50%;
+   border-radius: 90%;
 }
 
 
