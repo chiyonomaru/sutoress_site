@@ -169,8 +169,9 @@ header h1 {
 
 #backTop  {
   max-width: 100%;
-  width: 100%;
+  width: 30%;
   height: 50%;
+	margin:auto;
 
  
   
