@@ -192,21 +192,13 @@ article {
 
 #gallery {
   width: 100%;
-  left: 10% 
   display: flex;
   filter: 0;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.image {
-  width: 200px;
-  heght: 20px;
- margin:0 auto;
-  margin-top: 30px;
-	
-  background-color: #fff;
-}
+
 
 .thumb {
   width: 200px;
@@ -363,13 +355,20 @@ article{
   font-size: 1px;
 }
 
-#info span{
+#info {
+  font-size: 12px;
+  font-weight: bold
+   margin:auto;
+}
+
+#info span {
   font-size: 12px;
   font-weight: bold;
   color: #696969;
-  text-align: left;
-   margin-left: px;
+   margin:auto;
 }
+
+
 
 
 #info4 {
@@ -868,15 +867,7 @@ footer {
 	.gaiyou2{
 		margin-top: 30px;}
 
-	
-#info span { 
-        width: 100%;
-        font-size: 20px;
-        font-weight: bold; 
-        text-align: left;  
-        margin-top: 50px;
-  　　　 
-       }
+
 
   #info2 {
 	 
