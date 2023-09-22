@@ -198,7 +198,10 @@ article {
   justify-content: space-around;
 }
 
-
+img {
+	width:15%;
+	margin-top:30px;
+}
 
 .thumb {
   width: 200px;
