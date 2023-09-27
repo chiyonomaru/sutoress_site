@@ -873,7 +873,7 @@ footer {
 
 
   #info2 {
-	 
+	   max-width: 900px;
     letter-spacing:20%;
 	text-align: center;
 	display: block;
@@ -883,7 +883,6 @@ footer {
 }
 
 #info2 p {
-	width:600px;
   font-size: 17px;
    display: inline-block;
     color: #444;
