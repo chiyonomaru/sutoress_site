@@ -3,16 +3,21 @@
 .accordion-area{
     list-style: none;
     width: 96%;
+	height:40%;
     max-width: 900px;
     margin:0 auto;
+	
 }
 
 .accordion-area li{
     margin: 10px 0;
+	
 }
 
 .accordion-area section {
-	border: 1px solid #ccc;
+	border: 1px solid #444;
+	border-radius:2%;
+	
 }
 
 /*アコーディオンタイトル*/
@@ -23,6 +28,7 @@
     font-weight: normal;
     padding: 3% 3% 3% 50px;
     transition: all .5s ease;
+	height:40%;
 }
 
 /*アイコンの＋と×*/
@@ -32,7 +38,7 @@
     content:'';
     width: 15px;
     height: 2px;
-    background-color: #333;
+    background-color: #444;
     
 }
 .title::before{
@@ -62,4 +68,5 @@
     background: #f3f3f3;
 	margin:0 3% 3% 3%;
     padding: 3%;
+	
 }
