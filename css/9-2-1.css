@@ -3,7 +3,7 @@
 .accordion-area{
     list-style: none;
     width: 86%;
-	height:40%;
+	  height:40%;
     max-width: 900px;
     margin:0 auto;
 	
@@ -11,12 +11,12 @@
 
 .accordion-area li{
     margin: 50px 0;
-	
+	height:60%;
 }
 
 .accordion-area section {
 	border: 1px solid #444;
-	border-radius:2%;
+	  border-radius: 100vh;
 	
 }
 
