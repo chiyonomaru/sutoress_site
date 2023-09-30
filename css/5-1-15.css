@@ -151,7 +151,8 @@ small{
 }
 
 section{
-  padding:100px 30px;
+  padding:10px 10px;
+  border-radius:30%;
 }
 
 section:nth-child(2n){
