@@ -16,7 +16,7 @@
 
 .accordion-area section {
 	border: 1px solid #444;
-	  border-radius: 100vh;
+	  border-radius: 50vh;
 	
 }
 
@@ -65,8 +65,12 @@
 /*アコーディオンで現れるエリア*/
 .box {
     display: none;/*はじめは非表示*/
-    background: #f3f3f3;
-	margin:0 3% 3% 3%;
-    padding: 3%;
+
+    padding: 10%;
 	
+}
+
+.box p {
+    font-size:14px;
+	margin:auto;
 }
