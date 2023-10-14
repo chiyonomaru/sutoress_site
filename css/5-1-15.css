@@ -11,7 +11,7 @@
   top:0;               
   width:100%;
     height: 100vh;/*ナビの高さ*/
-  background:#999;
+  background:#8bcecb;
     /*動き*/
   transition: all 0.3s;
 }
@@ -56,7 +56,7 @@
 }
 
 #g-nav li a{
-  color: #333;
+  color: #fff;
   text-decoration: none;
   padding:10px;
   display: block;
