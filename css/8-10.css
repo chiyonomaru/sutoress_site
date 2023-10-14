@@ -19,7 +19,7 @@
 
 .TextTyping p {
   display: none;
-	margin-top: 40px;
+	margin-top: -40px;
 	
 }
 
@@ -83,14 +83,14 @@ span.smoothTextTrigger.smoothTextAppear{
 
 .TextTyping {
   text-align: center;
-	margin-top: 20px;
+	margin-top:100px;
 }
 
 /*========= タイピング ===============*/
 
 .TextTyping p {
   display: none;
-  
+  margin-top:40px;
 }
 
 
