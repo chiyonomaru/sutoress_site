@@ -297,9 +297,14 @@ aside {
 .people1 img {
 	width: 100%;
 
-  text-align: center;
-  opacity : 0;
-  transition: opacity 3s;
+  
+    animation: fadeIn 3s ease 0s 1 normal;
+
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
 }
 
 
