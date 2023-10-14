@@ -165,6 +165,35 @@ section:nth-child(2n){
 }
 
 
+// Vars
+$ease: cubic-bezier(0.6, 0, 0.2, 1);
+$white: #fff;
+
+// mixin
+@mixin transiton() {
+    @for $i from 1 through 20 {
+      &:nth-child(#{$i}) {
+        @if($i == 1) {
+           transition-delay: 0ms ;
+        } @else {
+         transition-delay: #{($i - 1) * 50}ms ; 
+        }
+      }
+   }
+}
+
+main {
+  section {
+    height: 100vh;
+    background-color: #313234;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:nth-child(odd) {
+      background-color: #999;
+    }
+  }
+
 .progress-bar {
     position: fixed;
     top: 0;
