@@ -237,81 +237,66 @@ main {
   }
 }
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:800);
-
-$animationDelay: -1.2s;
-
-html, body {
-  height: 100%;
-}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
 
 body {
-  background: #fff;
-  background-size: .2em 100%;
-  font: 5em/1 Roboto, Impact;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin: 0;
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-family: 'Open Sans';
+  overflow: hidden;
+  background: #222222;
 }
 
-.svg-text {
+.animation-container {
+  font-weight: 800;
+  font-size: 8em;
+  opacity: 1;
+}
+
+.animation-container svg {
+  width: 90%;
+  display: block;
+  top: 50%;
+  margin: -8% 0 0 5%;
+  position: fixed;
+}
+
+.animation-container svg .text {
   width: 100%;
-}
-
-.text {
-  fill: none;
-  stroke-width: 4;
+  fill: transparent;
+  stroke-width: 1;
   stroke-linejoin: round;
-  stroke-opacity: 0.85;
-  stroke-linecap: round;
-  stroke-dasharray: 70 330;
-  -webkit-animation: stroke 6s infinite linear;
-  animation: stroke 6s infinite linear;
+  stroke-dasharray: 90,310;
+  stroke-dashoffset: 0;
+  -webkit-animation: text 8s infinite linear;
+  animation: text 8s infinite linear;
 }
 
-.text:nth-child(5n + 1) {
-  stroke: #213F5C;
-  -webkit-animation-delay: $animationDelay;
-  animation-delay: $animationDelay;
-}
-.text:nth-child(5n + 2) {
-  stroke: #326397;
-  -webkit-animation-delay: $animationDelay*2;
-  animation-delay: $animationDelay*2;
+.animation-container svg .text:nth-child(4n + 1) {
+  stroke: #999;
+  -webkit-animation-delay: -2s;
+  animation-delay: -2s;
 }
 
-.text:nth-child(5n + 3) {
-  stroke: #5DABA3;
-  -webkit-animation-delay: $animationDelay*3;
-  animation-delay: $animationDelay*3;
+.animation-container svg .text:nth-child(4n + 2) {
+  stroke: #999;
+  -webkit-animation-delay: -4s;
+  animation-delay: -4s;
 }
 
-.text:nth-child(5n + 4) {
-  stroke: #F1D570;
-  -webkit-animation-delay: $animationDelay*4;
-  animation-delay: $animationDelay*4;
+.animation-container svg .text:nth-child(4n + 3) {
+  stroke: #999;
+  -webkit-animation-delay: -6s;
+  animation-delay: -6s;
 }
 
-.text:nth-child(5n + 5) {
-  stroke: #DC5F46;
-  -webkit-animation-delay: $animationDelay*5;
-  animation-delay: $animationDelay*5;
+.animation-container svg .text:nth-child(4n + 4) {
+  stroke: #999;
+  -webkit-animation-delay: -8s;
+  animation-delay: -8s;
 }
 
-@-webkit-keyframes stroke {
+@-webkit-keyframes text {
   100% {
     stroke-dashoffset: -400;
   }
 }
-
-@keyframes stroke {
-  100% {
-    stroke-dashoffset: -400;
-  }
-}
-
 
