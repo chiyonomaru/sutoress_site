@@ -77,17 +77,20 @@ span.smoothTextTrigger.smoothTextAppear{
   font-size: 1.5rem;
   letter-spacing: .5e
     word-break : break-all;
+  font-size:15px;
+ 
 }
 
 .TextTyping {
   text-align: center;
-	margin-top: 40px;
+	margin-top: 20px;
 }
 
 /*========= タイピング ===============*/
 
 .TextTyping p {
   display: none;
+  
 }
 
 
