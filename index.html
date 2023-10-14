@@ -87,18 +87,22 @@
                 <span></span>
             </div>
 
-<div class="animation-container">
-svg(viewBox='0 0 600 300').svg-text
-  symbol#text
-    text(text-anchor='middle', x='50%', y='50%', dy='.35em')
-      | Humaind
-  use.text(xlink:href='#text')
-  use.text(xlink:href='#text')
-  use.text(xlink:href='#text')
-  use.text(xlink:href='#text')
-  use.text(xlink:href='#text')
-  </svg>
-</div>
+<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+
+<svg version="1.1" viewBox="0 0 800 600">
+
+  <symbol id="fade-text">
+    <text x="45%" y="40%" text-anchor="middle">Fade in /</text>
+    <text x="55%" y="60%" text-anchor="middle">Fade out</text>
+  </symbol>
+
+  <g>
+    <use class="stroke" xlink:href="#fade-text"/>
+    <use class="fill" xlink:href="#fade-text"/>
+  </g>
+
+</svg>
+
             <nav id="openbtn1">
                 <nav id="g-nav">
                     <div id="g-nav-list">
