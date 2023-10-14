@@ -263,11 +263,6 @@ article {
   margin-bottom: 20px;
 }
 
-#pic {
-  width: 10%;
-  height: auto;
-}
-
 #backTop  {
   width: 100%;
   height: 50%;
@@ -284,13 +279,6 @@ article {
 
 
 
-.picbig img {
-  width: 30%;
-  height: 50%;
-  margin: 80px 50px 40px 50px;
-  display: flex;
-  border-radius: 20px;
-}
 
 aside {
   margin: -90px 50px -0px 50px;
@@ -301,22 +289,15 @@ aside {
 	margin-top: 20px;
 }
 
- 
-#pic {
+
+
+#people1{
+	 width: 100%;
+}
+.people1 img {
+	width: 100%;
 	
-	  width: 100%;
-    margin-bottom: 2rem;
-    margin-left: 0;
 }
-
-.picbig2 img {
-  width: 70%;
-  height: 80%;
-  margin: 80px 50px 40px 50px;
-  display: flex;
-  border-radius: 20px;
-}
-
 
 #info p {
     font-size: 12px;
@@ -451,12 +432,6 @@ aside {
   margin-bottom: 10px;
 }
 
-.picbig2 img {
-   width: 50vw;
-  border-radius: 20px;
-  margin: 0 auto;
-}
-
 a.btn_27 {
 	display: block;
 	text-align: right;
@@ -476,11 +451,6 @@ a.btn_27:hover {
 }
 
 
-img{
-	width:100%;
-    vertical-align: bottom;
-     border-radius: 20px;
-}
 
 
 section {
@@ -654,7 +624,7 @@ p {
 	margin:10px;
 }
 img {
-  width: 89%;
+  width: 59%;
   height: 30p;
 	margin-top:20px;
 }
