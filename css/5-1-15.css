@@ -237,59 +237,58 @@ main {
   }
 }
 
-
-.animation-container {
-  font-weight: 800;
-  font-size: 8em;
-  opacity: 1;
-}
-
-.animation-container svg {
-  width: 90%;
-  display: block;
-  top: 50%;
-  margin: -8% 0 0 5%;
-  position: fixed;
-}
-
-.animation-container svg .text {
+.svg-text {
   width: 100%;
-  fill: transparent;
-  stroke-width: 1;
+}
+
+.text {
+  fill: none;
+  stroke-width: 4;
   stroke-linejoin: round;
-  stroke-dasharray: 90,310;
-  stroke-dashoffset: 0;
-  -webkit-animation: text 8s infinite linear;
-  animation: text 8s infinite linear;
+  stroke-opacity: 0.85;
+  stroke-linecap: round;
+  stroke-dasharray: 70 330;
+  -webkit-animation: stroke 6s infinite linear;
+  animation: stroke 6s infinite linear;
 }
 
-.animation-container svg .text:nth-child(4n + 1) {
-  stroke: #999;
-  -webkit-animation-delay: -2s;
-  animation-delay: -2s;
+.text:nth-child(5n + 1) {
+  stroke: #213F5C;
+  -webkit-animation-delay: $animationDelay;
+  animation-delay: $animationDelay;
+}
+.text:nth-child(5n + 2) {
+  stroke: #326397;
+  -webkit-animation-delay: $animationDelay*2;
+  animation-delay: $animationDelay*2;
 }
 
-.animation-container svg .text:nth-child(4n + 2) {
-  stroke: #999;
-  -webkit-animation-delay: -4s;
-  animation-delay: -4s;
+.text:nth-child(5n + 3) {
+  stroke: #5DABA3;
+  -webkit-animation-delay: $animationDelay*3;
+  animation-delay: $animationDelay*3;
 }
 
-.animation-container svg .text:nth-child(4n + 3) {
-  stroke: #999;
-  -webkit-animation-delay: -6s;
-  animation-delay: -6s;
+.text:nth-child(5n + 4) {
+  stroke: #F1D570;
+  -webkit-animation-delay: $animationDelay*4;
+  animation-delay: $animationDelay*4;
 }
 
-.animation-container svg .text:nth-child(4n + 4) {
-  stroke: #999;
-  -webkit-animation-delay: -8s;
-  animation-delay: -8s;
+.text:nth-child(5n + 5) {
+  stroke: #DC5F46;
+  -webkit-animation-delay: $animationDelay*5;
+  animation-delay: $animationDelay*5;
 }
 
-@-webkit-keyframes text {
+@-webkit-keyframes stroke {
   100% {
     stroke-dashoffset: -400;
   }
 }
 
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: -400;
+  }
+}
