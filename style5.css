@@ -429,7 +429,7 @@ aside {
 .stepbar .stepbarwrap .stepline {
   width: 3px;
   height: calc(100% + 1em);
-  background-color: #000;
+  background-color: #00
   position: absolute;
   top: 1em;
   left: 1.5em;
@@ -442,7 +442,7 @@ aside {
 
 @media screen and (max-width: 960px) {
   .stepbar {
-    width: 90%;
+    width: 80%;
   }
 }
 
