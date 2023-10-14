@@ -296,8 +296,14 @@ aside {
 }
 .people1 img {
 	width: 100%;
-	
+
+  text-align: center;
+  opacity : 0;
+  transition: opacity 3s;
 }
+
+
+
 
 #info p {
     font-size: 12px;
