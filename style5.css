@@ -305,7 +305,7 @@ margin-top:-70px;
 .people1 {opacity: 0;} /*一瞬表示されるのを防ぐ*/
 .people1 {
     animation-name: fadeInDown;
-    animation-duration: 2.5s;
+    animation-duration: 4.5s;
     animation-fill-mode: forwards;
 }
 @keyframes fadeInDown {
