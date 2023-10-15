@@ -50,21 +50,15 @@ $(window).on('load', function () {
 	TextTypingAnime();/* アニメーション用の関数を呼ぶ*/
 });// ここまで画面が読み込まれたらすぐに動かしたい場合の記述
 
-window.onload = function () {
-  fade_effect();
-
-  $(window).scroll(function () {
-    fade_effect();
-  });
-
-  function fade_effect() {
-    $('.fade').each(function () {
-      const targetElement = $(this).offset().top;
-      const scroll = $(window).scrollTop();
-      const windowHeight = $(window).height();
-      if (scroll > targetElement - windowHeight) {
-        $(this).addClass('view');
-      }
+$(function () {
+    $(window).scroll(function () {
+        const wHeight = $(window).height();
+        const scrollAmount = $(window).scrollTop();
+        $('.scrollanime').each(function () {
+            const targetPosition = $(this).offset().top;
+            if(scrollAmount > targetPosition - wHeight + 60) {
+                $(this).addClass("fadeInDown");
+            }
+        });
     });
-  }
-};
+});
