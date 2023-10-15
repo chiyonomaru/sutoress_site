@@ -293,18 +293,13 @@ aside {
 
 #people1{
 	 width: 100%;
+	
+	
 }
 .people1 img {
 	width: 100%;
+margin-top:-70px;    
 
-  
-    animation: fadeIn 3s ease 0s 1 normal;
-
-
-@keyframes fadeIn {
-    0% {opacity: 0}
-    100% {opacity: 1}
-}
 }
 
 
@@ -432,7 +427,7 @@ aside {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .stepbar {
     width: 80%;
   }
@@ -974,7 +969,7 @@ footer ul {
 
 .stepbar {
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
 	margin-top:30px;
 }
 
