@@ -432,7 +432,7 @@ aside {
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 768px) {
   .stepbar {
     width: 80%;
   }
@@ -974,7 +974,7 @@ footer ul {
 
 .stepbar {
   margin: 0 auto;
-  width: 100%;
+  width: 80%;
 	margin-top:30px;
 }
 
