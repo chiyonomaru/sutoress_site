@@ -333,7 +333,6 @@ margin:auto;
 }
 
 
-
 #info p {
     font-size: 12px;
     color: #444;
@@ -994,6 +993,7 @@ footer ul {
   display: flex;
   justify-content: space-around;
 }
+
 
 
 .stepbar {
