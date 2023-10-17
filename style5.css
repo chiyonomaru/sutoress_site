@@ -319,6 +319,20 @@ margin-top:-70px;
 }
  
 
+@media screen and (min-width: 768px) {
+
+#people1{
+	 width: 100%;
+	
+	
+}
+.people1 img {
+	width: 70%;    
+margin:auto;
+}
+}
+
+
 
 #info p {
     font-size: 12px;
@@ -645,7 +659,7 @@ p {
 	margin:10px;
 }
 img {
-  width: 59%;
+  width: 79%;
   height: 30p;
 	margin-top:20px;
 }
