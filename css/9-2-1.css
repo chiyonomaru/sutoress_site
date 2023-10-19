@@ -75,7 +75,11 @@
 	margin:auto;
 }
 
-
+.box img {
+   
+	margin:auto;
+	width:100%;
+}
 @media screen and (min-width:1024px) {
 	
 /*アコーディオン全体*/
