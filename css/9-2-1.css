@@ -85,9 +85,10 @@
 /*アコーディオン全体*/
 .accordion-area{
     list-style: none;
-    width: 100%;
+    width: 90%;
 	 display: flex;
-  justify-content: center; /* 中央寄せ */
+	
+  /* 中央寄せ */
 	
 }
 
@@ -95,6 +96,7 @@
 	height:60%;
 	 box-sizing: border-box;
   padding: 40px 20px;  
+	width:40%;
 }
 
 .accordion-area section {
@@ -112,7 +114,6 @@
     padding: 3% 3% 3% 70px;
     transition: all .5s ease;
 	height:40%;
-	width:100%;
 	left:-11px;
 }
 
@@ -150,7 +151,6 @@
 /*アコーディオンで現れるエリア*/
 .box {
     display: none;/*はじめは非表示*/
-    
     padding: 10%;
 	
 }
@@ -160,6 +160,10 @@
 	margin:auto;
 	
 }
-
+.box img {
+   
+	margin:auto;
+	width:100%;
+}
 	 }
 
