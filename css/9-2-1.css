@@ -80,6 +80,15 @@
 	margin:auto;
 	width:100%;
 }
+
+
+.text{
+	width:80%;
+	margin:auto;
+	font-size:12px;
+	height:135px;
+}
+
 @media screen and (min-width:1024px) {
 	
 /*アコーディオン全体*/
@@ -165,5 +174,13 @@
 	margin:auto;
 	width:100%;
 }
+
+
+.text{
+	width:90%;
+	margin:auto;
+	font-size:12px;
+}
+
 	 }
 
