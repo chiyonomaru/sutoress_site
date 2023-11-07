@@ -122,6 +122,7 @@ font-weight: 700;
  
 }
 
+
 header {
   position: relative;
   height: 4rem;
@@ -152,15 +153,23 @@ header h1 {
   width: 1.8rem;
 }
 
-.logo img {
+.logo {
 	 position: absolute;
-	top: -24px;;
+
     width: 100%;
-	margin-left: -124px;
 	margin-top:-36px;
 	 position: fixed;
 }
 
+
+.logo img {
+	 position: absolute;
+	top: -24px;
+    width: 25%;
+	
+	margin-top:45px;
+	 position: fi
+}
 
 
 
@@ -175,28 +184,44 @@ nav ul {
 
 @media screen and (min-width:540px) {
 	
-.logo img {
-	  position: absolute;
-	top: -24px;;
-    width: 50%;
-   margin-left:-76px;
-	margin-top:-4px;
+.logo {
+	 position: absolute;
+
+    width: 100%;
+	margin-top:-36px;
 	 position: fixed;
+}
+
+
+.logo img {
+	 position: absolute;
+	top: -24px;
+    width: 25%;
 	
+	margin-top:45px;
+	 position: fi
 }
 }
 
 
 @media screen and (max-width:300px) {
 	
-.logo img {
-	  position: absolute;
-	top: -24px;;
-    width: 90%;
-   margin-left:-76px;
-	margin-top:-4px;
+.logo {
+	 position: absolute;
+
+    width: 100%;
+	margin-top:-36px;
 	 position: fixed;
+}
+
+
+.logo img {
+	 position: absolute;
+	top: -24px;
+    width: 25%;
 	
+	margin-top:56px;
+	 position: fi
 }
 }
 
@@ -939,44 +964,92 @@ footer ul {
 
 
 	
+.logo {
+	 position: absolute;
 
-.logo img {
-	  position: absolute;
-	top: -24px;;
-    width: 33%;
-
+    width: 100%;
 	margin-top:-36px;
 	 position: fixed;
-	
 }
 
 
+.logo img {
+	 position: absolute;
+	top: -24px;
+    width: 15%;
+	
+	margin-top:40px;
+	 position: fi
+}
+
 @media screen and (max-width:1030px) {
 	
-.logo img {
-	  position: absolute;
-	top: -24px;;
-    width: 39%;
+.logo {
+	 position: absolute;
 
+    width: 100%;
 	margin-top:-36px;
 	 position: fixed;
+}
+
+
+.logo img {
+	 position: absolute;
+	top: -24px;
+    width: 25%;
 	
+	margin-top:56px;
+	 position: fi
 }
 }
 
 	
 @media screen and (max-width:1000px) {
 	
-.logo img {
-	  position: absolute;
-	top: -24px;;
-    width: 50%;
+.logo {
+	 position: absolute;
 
+    width: 100%;
 	margin-top:-36px;
 	 position: fixed;
+}
+
+
+.logo img {
+	 position: absolute;
+	top: -24px;
+    width: 15%;
 	
+	margin-top:40px;
+	 position: fi
 }
 }
+
+	
+	
+@media screen and (max-width:1024px) {
+	
+.logo {
+	 position: absolute;
+
+    width: 100%;
+	margin-top:-36px;
+	 position: fixed;
+}
+
+
+.logo img {
+	 position: absolute;
+	top: -24px;
+    width: 15%;
+	
+	margin-top:40px;
+	 position: fi
+}
+}
+
+	
+
 	
   article {
     flex: 3;
