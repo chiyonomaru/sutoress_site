@@ -95,12 +95,10 @@ header h1 {
 .logo img {
 	 position: absolute;
 	top: -24px;
-    width: 25%;
-	
+    width: 100px;
 	margin-top:45px;
 	 position: fi
 }
-
 
 nav ul {
     color: white;
@@ -138,8 +136,8 @@ nav ul {
 .logo {
 	 position: absolute;
 
-    width: 100%;
-	margin-top:-36px;
+    width: 40%;
+	margin-top:-60px;
 	 position: fixed;
 }
 
@@ -147,7 +145,7 @@ nav ul {
 .logo img {
 	 position: absolute;
 	top: -24px;
-    width: 25%;
+    width: 96%;
 	
 	margin-top:56px;
 	 position: fi
