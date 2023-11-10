@@ -9,10 +9,7 @@
 	margin-top:-90px;
 }
 
-.accordion-area li{
-    margin: 50px 0;
-	height:60%;
-}
+
 
 .accordion-area section {
 	border: 1px solid #444;
@@ -67,7 +64,7 @@
     display: none;/*はじめは非表示*/
 
     padding: 10%;
-	
+
 }
 
 .box p {
@@ -120,23 +117,24 @@ h2:after {
 	
 /*アコーディオン全体*/
 .accordion-area{
-    list-style: none;
-　　 display: flex;
-  flex-direction: row;
-
-  width:60%;
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+ width: 100%;
+ margin-top:40px;
+ background-color:fff;
+	
 }
 
-.accordion-area li{
- 
-	 box-sizing: border-box;
-  padding: 40px 20px;  
+.accordion-area>div{
+	width:50%;
+	
 }
 
 .accordion-area section {
 	border: 1px solid #444;
   border: 1px solid #000;
-  width: 50%;
+  width: 70%;
 	
 }
 
@@ -192,13 +190,13 @@ h2:after {
 
 .box p {
     font-size:14px;
-	margin:auto;
 	
+
 }
 .box img {
    
 	margin:auto;
-	width:100%;
+	
 }
 
 
@@ -206,17 +204,20 @@ h2:after {
 	width:90%;
 	margin:auto;
 	font-size:12px;
+	
 }
 
 
 	
 h2 {
-   display: flex;
+   width:50%;
+	
+	font-size:12px;
     justify-content: space-around;
-  padding: 0 63px;
+  
 	font-size:14px;
-	margin-top:40px;
-	width:30%;
+	
+
 }
 
 h2:before, h2:after {
@@ -227,6 +228,7 @@ h2:before, h2:after {
   width: 45px;
   height: 1px;
   background-color: black;
+	
 }
 
 h2:before {
