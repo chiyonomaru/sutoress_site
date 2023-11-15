@@ -61,6 +61,7 @@ header {
   background-color: #;
   background-color: white;
 	z-index:9;
+	width:100%;
 }
 header h1 {
  position: absolute;
@@ -83,22 +84,6 @@ header h1 {
   width: 1.8rem;
 }
 
-.logo {
-	 position: absolute;
-
-    width: 100%;
-	margin-top:-36px;
-	 position: fixed;
-}
-
-
-.logo img {
-	 position: absolute;
-	top: -24px;
-    width: 100px;
-	margin-top:45px;
-	 position: fi
-}
 
 nav ul {
     color: white;
@@ -109,48 +94,6 @@ nav ul {
    
 }
 
-@media screen and (min-width:540px) {
-	
-.logo {
-	 position: absolute;
-
-    width: 100%;
-	margin-top:-36px;
-	 position: fixed;
-}
-
-
-.logo img {
-	 position: absolute;
-	top: -24px;
-    width: 25%;
-	
-	margin-top:45px;
-	 position: fi
-}
-}
-
-
-@media screen and (max-width:300px) {
-	
-.logo {
-	 position: absolute;
-
-    width: 40%;
-	margin-top:-60px;
-	 position: fixed;
-}
-
-
-.logo img {
-	 position: absolute;
-	top: -24px;
-    width: 96%;
-	
-	margin-top:56px;
-	 position: fi
-}
-}
 
 nav ul {
     color: white;
@@ -218,15 +161,22 @@ article {
   justify-content: space-around;
 }
 
-img {
-	width:15%;
-	margin-top:30px;
+	
+.logo {
+	wifth:100%;
+	margin-top:-48px;
+	 position: fixed;
 }
 
-.thumb {
-  width: 200px;
-  height: 280px;
+
+.logo img {
+	
+    width: 100%;
+	margin-top:20px;
+	 position: fi
 }
+
+
 
 #page {
    margin-bottom: 5rem;
@@ -243,91 +193,6 @@ img {
   width: 10%;
   height: auto;
 }
-
-.picbig img {
-  width: 50%;
-  height: 50%;
-  margin: 80px 50px 40px 50px;
-	 border-radius: 5%;
-}
-#skill{
-  width: 100%;
-  position: relative;
-  display: flex;
-  justify-content: space-around;
-
-	}
-
-.skill{
-  width:100%;
-  margin-bottom: 3rem;
-		margin-top:40px;
-	
-	}
-	
-.skill img{
-   width: 60%;
-   border-radius: 50%;
-	border: solid 3px #000;
-	margin-top:0px;
-	background-color:#fff;
-	margin:auto;
-	 box-shadow: 4px 4px 8px 0 rgb(0 0 0 / 13%);
-	}
-	
-.skill p{
-   width: 100%;
-   text-align: center;
-		color:#000;
-	margin-left:-26px;
-	}
-	
-.skill a{
-   text-decoration: none;
-	}	
-
-
-
-
-@media screen and (max-width:500px) {
-	
-	
-#skill{
-  width: 100%;
- display:flex;
-	 flex-wrap: wrap;
-	}
-
-.skill{
-  width: 120px;
-  margin-bottom: 3rem;
-	
-	
-	}
-	
-.skill img{
-   width: 80%;
-   border-radius: 50%;
-	border: solid 3px #000;
-	
-	background-color:#fff;
-	margin:auto;
-	 box-shadow: 4px 4px 8px 0 rgb(0 0 0 / 13%);
-	}
-	
-.skill p{
-   width: 100%;
-   text-align: center;
-		color:#000;
-	margin-left:-20px;
-	}
-	
-.skill a{
-   text-decoration: none;
-	}	
-
-}
-
 
 aside {
 
@@ -559,38 +424,6 @@ footer {
    margin-top: 30px;
 }
 
-.article__portfolio_color1 {
- 
-  
-  
-  width: 50px;
-
-  height: 50px;
- 
-  background-color: #e5037b;
-  
-  border-radius: 10px;
-
-   margin-top: 30px;
-}
-
-
-
-.article__portfolio_color2 {  
-  
-  
-   margin-left: -90px;
-  
-
-  
-  width: 50px;
-
-  height: 50px;
- 
-  background-color: #72a8db;
-  
-  border-radius: 10px;
-}
 
 /*-------------------------------
       LAYOUT PC (OverWrite)
@@ -663,81 +496,14 @@ footer {
 
 
 .logo img {
-	 position: absolute;
+	
 	top: -24px;
-    width: 15%;
+    width: 10%;
 	
 	margin-top:40px;
 	 position: fi
 }
 
-
-@media screen and (max-width:1030px) {
-	
-	
-.logo {
-	 position: absolute;
-
-    width: 100%;
-	margin-top:-36px;
-	 position: fixed;
-}
-
-
-.logo img {
-	 position: absolute;
-	top: -24px;
-    width: 25%;
-	
-	margin-top:56px;
-	 position: fi
-}
-}
-
-	
-@media screen and (max-width:1000px) {
-	
-.logo {
-	 position: absolute;
-
-    width: 100%;
-	margin-top:-36px;
-	 position: fixed;
-}
-
-
-.logo img {
-	 position: absolute;
-	top: -24px;
-    width: 15%;
-	
-	margin-top:40px;
-	 position: fi
-}
-}
-	
-@media screen and (max-width:1024px) {
-	
-.logo {
-	 position: absolute;
-
-    width: 100%;
-	margin-top:-36px;
-	 position: fixed;
-}
-
-
-.logo img {
-	 position: absolute;
-	top: -24px;
-    width: 15%;
-	
-	margin-top:40px;
-	 position: fi
-}
-}
-
-	
 
 #gallery {
   margin:auto;
