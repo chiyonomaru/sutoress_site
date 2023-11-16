@@ -9,6 +9,7 @@
         <link rel="stylesheet" type="text/css" href="css/4-1-1.css">
         <link rel="stylesheet" type="text/css" href="css/8-10.css">
         <link rel="stylesheet" type="text/css" href="css/5-16.css">
+        <link rel="stylesheet" type="text/css" href="css/5-1-15.css">
         <link rel="stylesheet" type="text/css" href="css/9-1-3.css">
 	
         <title>ヒューマインド</title>
@@ -79,44 +80,12 @@
           <img src="サイト素材/home.png" height="120" alt="site-logo2.png">
         </a>
   </div>
-<!--▽▽ハンバーガーメニュー▽▽-->
-      <div id="hamburger">
-        <div class="icon">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-      <script>
-        $('#hamburger').on('click', function(){
-        $('.icon').toggleClass('close');
-        $('.hamburger-list').slideToggle();
-        });
-      </script>
-<!--△△ハンバーガーメニュー△△-->
-
-<!--▽▽ハンバーガーメニューのリスト▽▽-->
-<nav class="hamburger-list">
-  <ul>
-    <li><a href="index.html">About</a></li>
-    <li><a href="kyu.html">感情とは</a></li>
-    <li><a href=".html">おまけ</a></li>
-    <li><a href=".html">SNS</a></li>
-  </ul>
-</nav>
-<!--△△ハンバーガーメニューのリスト△△-->
-<!--▽▽ヘッダーリスト▽▽-->
-<nav class="main-menu">
-  <ul>
-    <li><a href="about.html">About</a></li>
-    <li><a href="timelapse.html">感情とは</a></li>
-    <li><a href="photo.html">おまけ</a></li>
-    <li><a href="map.html">SNS</a></li>
-  </ul>
-</nav>
-<!--△△ヘッダーリスト△△-->
             </header>
-           
+            <div class="openbtn1">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
 <p class="text">
   <span>ヒ</span>
   <span>ュ</span>
@@ -131,7 +100,40 @@
   <span>c</span>
  
 </p>
-          
+            <nav id="openbtn1">
+                <nav id="g-nav">
+                    <div id="g-nav-list">
+                        <!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
+                        <ul>
+                            <li class="blurTrigger">
+                            <li>
+                                <a href="index.html">ホームへ</a>
+                            </li>
+                            <li class="blurTrigger">
+                            <li>
+                                <a href="kyu.html">嬉しい</a>
+                            </li>
+                            <li class="blurTrigger">
+                            <li>
+                                <a href="kanashii.html">悲しい</a>
+                            </li>
+				 <li class="blurTrigger">
+                            <li>
+                                <a href="huann.html">不安</a>
+                            </li>
+                            
+				<li class="blurTrigger">
+                            <li>
+                                <a href="ikari.html">怒り</a>
+                            </li>
+                            <li class="blurTrigger">
+                            <li>
+                                <a href="kowai.html">恐れ</a>
+                            </li>
+				
+                        </ul>
+                    </div>
+                </nav>
                 <div id="wrapper">
                     <article>
 		
@@ -221,10 +223,16 @@
        おそれること。恐怖。悪いことが起こるのではないかという心配。懸念(けねん)。
     </p>
   </div>
-	
+	<div class="item">
+     <img src="サイト素材/darui.png">
+    <p>
+       何となくいやだと思う気持ち。いやき。
+    </p>
+  </div>
+
 </div>
-				
-				
+
+
 				
 				
 				
