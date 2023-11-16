@@ -305,7 +305,34 @@ max-width: 100%;
  display: inline-block;
   text-align: left;
 	width:100%;
+	
 }
+
+		
+#skill{
+margin-top:40px;
+  
+  margin: auto;
+	}
+
+
+.skill{
+	margin-bottom:50px;
+	margin-top:50px;
+  
+	}
+	
+
+.skill p{
+  
+   font-size:12px;
+	color:#444;
+	}
+	
+.skill a{
+   text-decoration: none;
+	}	
+
 
 /*----------------------------
 scroll_up ｜下から上へ出現
@@ -527,14 +554,14 @@ footer {
 
 		
 #skill{
-  width: 90%;
+  width: 100%;
   position: relative;
   margin: auto;
 	}
 
 
 .skill{
-  width: 100px;
+
 	margin-top:30px;
 	
 	}
@@ -546,10 +573,10 @@ footer {
 	}
 	
 .skill p{
-   width: 100%;
+   
    padding-top: 1rem;
    text-align: center;
-	color:#000;
+	color:#444;
 	}
 	
 .skill a{
@@ -567,17 +594,12 @@ footer {
 
 
 .skill{
-  width: 100px;
+  
 	margin-top:30px;
 	
 	}
 	
-.skill img{
-   width: 60%;
-   border-radius: 50%;
-	
-	}
-	
+
 .skill p{
    width: 100%;
    padding-top: 1rem;
@@ -594,26 +616,22 @@ footer {
 	
 		
 #skill{
-  width: 70%;
-  position: relative;
+  width: 100%;
+  
   margin: auto;
 	}
 
 
 .skill{
-  width: 100px;
+  
 	margin-top:30px;
 	
 	}
 	
-.skill img{
-   width: 80%;
-   border-radius: 50%;
-	
-	}
+
 	
 .skill p{
-   width: 100%;
+  
    padding-top: 1rem;
    text-align: center;
 	color:#000;
