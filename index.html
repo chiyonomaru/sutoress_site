@@ -79,23 +79,42 @@
           <img src="サイト素材/home.png" height="120" alt="site-logo2.png">
         </a>
   </div>
+<!--▽▽ハンバーガーメニュー▽▽-->
+      <div id="hamburger">
+        <div class="icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <script>
+        $('#hamburger').on('click', function(){
+        $('.icon').toggleClass('close');
+        $('.hamburger-list').slideToggle();
+        });
+      </script>
+<!--△△ハンバーガーメニュー△△-->
 
-	  <div class="header_inner">
-    <nav class="nav">
-      <ul class="nav_list">
-        <li class="nav_item"><a href="index.html">ホーム</a></li>
-        <li class="nav_item"><a href="kyu.html">感情とは</a></li>
-        <li class="nav_item"><a href="kanashii.html">おまけ</a></li>
-        <li class="nav_item"><a href="ikari.html">SNS</a></li>
-      </ul>
-    </nav>
-  </div>
-  <div class="hamburger" id="js-hamburger">
-    <span class="hamburger_border hamburger_border_top"></span>
-    <span class="hamburger_border hamburger_border_center"></span>
-    <span class="hamburger_border hamburger_border_bottom"></span>
-  </div>
-  <div class="black_bg" id="js-black-bg"></div>
+<!--▽▽ハンバーガーメニューのリスト▽▽-->
+<nav class="hamburger-list">
+  <ul>
+    <li><a href="index.html">About</a></li>
+    <li><a href="kyu.html">感情とは</a></li>
+    <li><a href=".html">おまけ</a></li>
+    <li><a href=".html">SNS</a></li>
+  </ul>
+</nav>
+<!--△△ハンバーガーメニューのリスト△△-->
+<!--▽▽ヘッダーリスト▽▽-->
+<nav class="main-menu">
+  <ul>
+    <li><a href="about.html">About</a></li>
+    <li><a href="timelapse.html">感情とは</a></li>
+    <li><a href="photo.html">おまけ</a></li>
+    <li><a href="map.html">SNS</a></li>
+  </ul>
+</nav>
+<!--△△ヘッダーリスト△△-->
             </header>
            
 <p class="text">
