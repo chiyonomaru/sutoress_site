@@ -334,6 +334,29 @@ margin-top:40px;
 	}	
 
 
+
+.skill {
+	position: relative;
+	padding: .3em;
+}
+.skill::before,
+.skill::after {
+	content: '';
+	position: absolute;
+	bottom: -4px;
+	left: 0;
+	height: 4px;
+}
+.skill::before {
+	z-index: 2;
+	width: 15%;
+	background-color: #E91E63;
+}
+.skill::after {
+	width: 100%;
+	background: repeating-linear-gradient(45deg, #fff, #fff 2px, #E91E63 2px, #E91E63 4px);
+}
+
 /*----------------------------
 scroll_up ｜下から上へ出現
 ----------------------------*/
@@ -557,6 +580,8 @@ footer {
   width: 100%;
   position: relative;
   margin: auto;
+	position: relative;
+	padding: .3em;
 	}
 
 
@@ -582,6 +607,8 @@ footer {
 .skill a{
    text-decoration: none;
 	}	
+
+
 
 @media screen and (min-width:900px) {
 	
