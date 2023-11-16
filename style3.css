@@ -16,7 +16,7 @@ body {
 font-weight: 700;
 font-style: normal;
   font-size: 16px;
-  background-color: white;
+  background-color: #E91E63;
 }
 
 /*-------------------------------
@@ -58,8 +58,8 @@ font-style: normal;
 header {
     position: relative;
   height: 4rem;
-  background-color: #;
-  background-color: white;
+  background-color: #fff;
+ 
 	z-index:9;
 	width:100%;
 }
@@ -68,7 +68,7 @@ header h1 {
   top: 1.9rem;
   left: 2rem;
   font-size: 1.2rem;
-	  background-color: white;
+	 
 }
 
 #button {
@@ -209,9 +209,7 @@ aside {
     margin-left: 0;
   }
 
-h4 {
-   font-weight: bold;
-}
+
   #pic2 {
     width: 100%;
     margin-left: 0px;
@@ -222,6 +220,7 @@ h4 {
 	text-align: center;
 	display: block;
 	border: 1px solid #00
+	background-color:#444;
 }
 
 #info2 p {
@@ -427,6 +426,8 @@ footer {
 
   color:white;
 }
+
+
 
 
 #page_top{
