@@ -17,6 +17,7 @@ font-weight: 700;
 font-style: normal;
   font-size: 16px;
   background-color: #E91E63;
+	width:100%;
 }
 
 /*-------------------------------
@@ -36,7 +37,7 @@ font-style: normal;
   z-index: 999;
   width: 100vw;
   height: 100vh;
-  background: #fff;
+  background-color: #E91E63;
 }
 
 
@@ -483,7 +484,8 @@ footer {
 @media only screen and (min-width: 768px) {
 
   header {
-    height: 5em;
+    height: 5rem;
+	  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); /* ガラスの影の効果を追加 */
   }
   header h1 {
     top: 2.4rem;
@@ -491,13 +493,14 @@ footer {
     width: 200%;
     text-align: center;
     font-size: 1.5rem;
+	  
   }
 
 
   #container {
  
     position: relative;
- 
+   
 
     margin: auto;
   }
@@ -525,13 +528,13 @@ footer {
   }
  
   main {
-    height: 950px
+
     flex-direction: row;
-    margin-top: 3rem;
+    margin-top: -2rem;
   }
   article {
     flex: 3;
-    padding: 3rem;
+    padding:13rem;
     font-size: 1rem;
     
   }
@@ -559,7 +562,7 @@ footer {
 #gallery {
   margin:auto;
   margin-top: 70px;
-  width: 600px;
+  
   outline: none;
 　border: none;
   display: flex;
@@ -581,8 +584,7 @@ footer {
   width: 100%;
   position: relative;
   margin: auto;
-	position: relative;
-	padding: .3em;
+	
 	}
 
 
@@ -615,7 +617,7 @@ footer {
 	
 		
 #skill{
-  width: 80%;
+  width: 100%;
   position: relative;
   margin: auto;
 	}
@@ -633,6 +635,7 @@ footer {
    padding-top: 1rem;
    text-align: center;
 	color:#000;
+	font-size:16px;
 	}
 	
 .skill a{
@@ -644,16 +647,16 @@ footer {
 	
 		
 #skill{
-  width: 100%;
-  
-  margin: auto;
+  w
+ 
+margin:auto;
 	}
 
 
 .skill{
-  
+   padding:rem;
 	margin-top:30px;
-	
+	width:100%;
 	}
 	
 
@@ -753,7 +756,6 @@ footer {
 
 
   #info2 {
-	   max-width: 900px;
     letter-spacing:20%;
 	text-align: center;
 	display: block;
@@ -889,13 +891,7 @@ aside p {
 	
 
 
-article  {
-  margin-top: 1rem;
-  text-align: left;
-   color: #696969;
-  line-height: 180%;
-  font-size: 11px;
-}
+
 article span {
     margin-top: rem;
     margin-bottom: 2rem;
@@ -928,7 +924,8 @@ footer {
   padding: 1.5rem;
   text-align: center;
  
-  color:white;
+  color:#444;
+	background-color:#fff;
 }
 
 #page_top{
