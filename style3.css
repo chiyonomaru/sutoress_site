@@ -472,10 +472,17 @@ scroll_up ｜下から上へ出現
 	  height:40%;
     max-width: 900px;
     margin:0 auto;
-	margin-top:-90px;
+
 }
 
-
+.accordion-area h2{
+	position: relative;
+  display: inline-block;
+  padding: 0 53px;
+	font-size:12px;
+	margin-top:60px;
+	 font-weight: bold;	color:#444;
+}
 
 .accordion-area section {
 	border: 1px solid #444;
@@ -553,14 +560,6 @@ scroll_up ｜下から上へ出現
 }
 
 
-h2 {
-  position: relative;
-  display: inline-block;
-  padding: 0 53px;
-	font-size:12px;
-	margin-top:40px;
-	 font-weight: bold;	color:#444;
-}
 
 h2:before, h2:after {
   content: '';
@@ -778,46 +777,6 @@ margin:auto;
    text-decoration: none;
 	}	
 }
-
-.gaiyou{
-	width:60%;
-	display:flex;
-	justify-content:space-between;
-	flex-wrap:wrap;
-	align-items:center;
-	margin:0 auto;
-	text-align:left;
-	margin-top:-50px;
-}
-	.gaiyou p{
-		margin-top: 60px;
-		line-height:1.8;
-		text-align:justify;
-		max-width: 700px;
-	}
-
-.gaiyou h1{
-	margin-top: -60px;
-				 }
-	
-	.gaiyou h2{
-		margin-top: 60px;
-		font-size:25px;
-	}
-
-.gaiyou{
-	display:inline-block;
-	width:33%;
-}
-	.gaiyou h1{
-		font-size:33px;
-	}
-	.gaiyou h2{
-		font-size:20px;
-		margin-top: 30px;
-	}
-	.gaiyou{
-		margin-top: 30px;}
 
 
 
@@ -1115,17 +1074,7 @@ flex-wrap: wrap;
 }
 
 
-	
-h2 {
-   width:50%;
-	
-	font-size:12px;
-    justify-content: space-around;
-  
-	font-size:14px;
-	
 
-}
 
 h2:before, h2:after {
   content: '';
