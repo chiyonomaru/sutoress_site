@@ -56,36 +56,6 @@ font-style: normal;
 }
 
 
-#lists {
-  letter-spacing: 3px;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  position: absolute;
-  top: rem;
-  color: #fff;
-  background-color: #fff;
-  opacity: 0.85;
-}
-#lists li {
-  width: 100%;
-  border-bottom: 1px solid #444;
-  list-style-type: none;
-  font-size: 80%;
-}
-#lists li:last-child {
-  border-bottom: none;
-  
-}
-#lists a {
-  display: block;
-  font-size: 18px;
-  padding: 1.4rem;
-  color: #444;
-  text-decoration: none;
-  text-align: center;
-  margin-top: -1px;
-}
 
 #container {
  
