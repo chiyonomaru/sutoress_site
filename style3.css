@@ -820,44 +820,7 @@ margin:auto;
 		margin-top: 30px;}
 
 
-.gaiyou2{
-	width:60%;
-	justify-content:space-between;
-	flex-wrap:wrap;
-	align-items:center;
-	margin:0 auto;
-	text-align:left;
-	margin-top:-50px;
-}
-	.gaiyou2 p{
-		margin-top: 60px;
-		line-height:1.8;
-		text-align:justify;
-		max-width: 700px;
-	}
 
-.gaiyou2 h1{
-	margin-top: -40px;
-				 }
-	
-	.gaiyou2 h2{
-		margin-top: 60px;
-		font-size:25px;
-	}
-
-.gaiyou2{
-	display:inline-block;
-	width:33%;
-}
-	.gaiyou2 h1{
-		font-size:33px;
-	}
-	.gaiyou2 h2{
-		font-size:20px;
-		margin-top: 30px;
-	}
-	.gaiyou2{
-		margin-top: 30px;}
 
 
 
@@ -1053,7 +1016,7 @@ footer {
 @media screen and (min-width:1024px) {
 	
 /*アコーディオン全体*/
-.accordion-area{
+.accordion-area {
 list-style: none;
 display: flex;
 flex-wrap: wrap;
@@ -1065,6 +1028,13 @@ flex-wrap: wrap;
 
 .accordion-area>div{
 	width:50%;
+	
+}
+
+.accordion-area h2{
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
 	
 }
 
@@ -1177,6 +1147,8 @@ h2:after {
 
 
 	 }
+
+
 
 
 #page_top{
