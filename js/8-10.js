@@ -18,7 +18,7 @@ function TextTypingAnime() {
 		} else {
 			thisChild = $(this).children();
 			thisChild.each(function () {
-				$(this).stop(); //delay処理を止める
+				$(this).stop(); //delay処理を止める      
 				$(this).css("display", "none"); //spanタグ非表示
 			});
 		}
