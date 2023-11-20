@@ -116,7 +116,7 @@ li {
       height: 100vh;
       display: block;
       width: 100%;
-      background: rgba(0, 0, 0, .8);
+      background: #E91E63;
       opacity: 0;
       transform: translateY(-100%);
       transition: all .6s ease-in-out;
