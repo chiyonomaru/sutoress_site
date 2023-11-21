@@ -122,7 +122,6 @@ font-weight: 700;
  
 }
 
-
 header {
   position: relative;
   height: 4rem;
@@ -153,23 +152,15 @@ header h1 {
   width: 1.8rem;
 }
 
-.logo {
+.logo img {
 	 position: absolute;
+	top: -24px;;
+    width: 20%;
 
-    width: 100%;
-	margin-top:-36px;
+	margin-top:18px;
 	 position: fixed;
 }
 
-
-.logo img {
-	 position: absolute;
-	top: -24px;
-    width: 25%;
-	
-	margin-top:45px;
-	 position: fi
-}
 
 
 
@@ -184,44 +175,28 @@ nav ul {
 
 @media screen and (min-width:540px) {
 	
-.logo {
-	 position: absolute;
-
-    width: 100%;
-	margin-top:-36px;
-	 position: fixed;
-}
-
-
 .logo img {
-	 position: absolute;
-	top: -24px;
-    width: 25%;
+	  position: absolute;
+	top: -24px;;
+    width: 50%;
+   margin-left:-76px;
+	margin-top:-4px;
+	 position: fixed;
 	
-	margin-top:45px;
-	 position: fi
 }
 }
 
 
 @media screen and (max-width:300px) {
 	
-.logo {
-	 position: absolute;
-
-    width: 100%;
-	margin-top:-36px;
-	 position: fixed;
-}
-
-
 .logo img {
-	 position: absolute;
-	top: -24px;
-    width: 25%;
+	  position: absolute;
+	top: -24px;;
+    width: 90%;
+   margin-left:-76px;
+	margin-top:-4px;
+	 position: fixed;
 	
-	margin-top:56px;
-	 position: fi
 }
 }
 
@@ -288,6 +263,11 @@ article {
   margin-bottom: 20px;
 }
 
+#pic {
+  width: 10%;
+  height: auto;
+}
+
 #backTop  {
   width: 100%;
   height: 50%;
@@ -304,6 +284,13 @@ article {
 
 
 
+.picbig img {
+  width: 30%;
+  height: 50%;
+  margin: 80px 50px 40px 50px;
+  display: flex;
+  border-radius: 20px;
+}
 
 aside {
   margin: -90px 50px -0px 50px;
@@ -314,47 +301,20 @@ aside {
 	margin-top: 20px;
 }
 
-
-
-#people1{
-	 width: 100%;
-	
-	
-}
-.people1 img {
-	width: 100%;
-margin-top:-70px;    
-
-}
-
-.people1 {opacity: 0;} /*一瞬表示されるのを防ぐ*/
-.people1 {
-    animation-name: fadeInDown;
-    animation-duration: 6.5s;
-    animation-fill-mode: forwards;
-}
-@keyframes fadeInDown {
-    0% {
-        opacity: 0;         
-    }
-    100% {
-    opacity: 1;
-    transform: translate(0);
-    }
-}
  
-
-@media screen and (min-width: 768px) {
-
-#people1{
-	 width: 100%;
+#pic {
 	
-	
+	  width: 100%;
+    margin-bottom: 2rem;
+    margin-left: 0;
 }
-.people1 img {
-	width: 70%;    
-margin:auto;
-}
+
+.picbig2 img {
+  width: 70%;
+  height: 80%;
+  margin: 80px 50px 40px 50px;
+  display: flex;
+  border-radius: 20px;
 }
 
 
@@ -469,7 +429,7 @@ margin:auto;
 .stepbar .stepbarwrap .stepline {
   width: 3px;
   height: calc(100% + 1em);
-  background-color: #00
+  background-color: #000;
   position: absolute;
   top: 1em;
   left: 1.5em;
@@ -491,6 +451,12 @@ margin:auto;
   margin-bottom: 10px;
 }
 
+.picbig2 img {
+   width: 50vw;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
 a.btn_27 {
 	display: block;
 	text-align: right;
@@ -508,6 +474,7 @@ a.btn_27:hover {
     background: #fff;
     color: #696969;
 }
+
 
 
 
@@ -595,7 +562,7 @@ aside p {
 }
 .item {
   border-radius: 10px;
-
+ 
   padding: 18px;
   text-align: center;
 	
@@ -617,19 +584,19 @@ p {
   
 
 .grid {
-  display: grid;
+	display:grid;
+   flex-wrap: wrap;
   gap: 30px;
    grid-template-columns: repeat(4, 200px);
 }
 .item {
   border-radius: 10px;
- 
-  padding: 18px;
+  padding: 1px;
   text-align: center;
 	margin:10px;
 }
 img {
-  width: 89%;
+  width: 100%;
   height: 30p;
 	margin-top:20px;
 }
@@ -650,8 +617,7 @@ p {
 }
 .item {
   border-radius: 10px;
-
-  padding: 18px;
+ 
   text-align: center;
 	margin:10px;
 }
@@ -672,7 +638,7 @@ p {
 
 .grid {
   display: grid;
-  gap: 60px;
+  gap: 50px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 .item {
@@ -686,10 +652,10 @@ img {
   width: 100%;
   height: 30p;
 	margin-top:20px;
+	margin:auto;
 }
 p {
   text-align: center;
-
 }
 	
 }
@@ -964,92 +930,44 @@ footer ul {
 
 
 	
-.logo {
-	 position: absolute;
-
-    width: 100%;
-	margin-top:-36px;
-	 position: fixed;
-}
-
 
 .logo img {
-	 position: absolute;
-	top: -24px;
-    width: 15%;
+	  position: absolute;
+	top: -24px;;
+    width: 33%;
+
+	margin-top:-36px;
+	 position: fixed;
 	
-	margin-top:40px;
-	 position: fi
 }
+
 
 @media screen and (max-width:1030px) {
 	
-.logo {
-	 position: absolute;
+.logo img {
+	  position: absolute;
+	top: -24px;;
+    width: 39%;
 
-    width: 100%;
 	margin-top:-36px;
 	 position: fixed;
-}
-
-
-.logo img {
-	 position: absolute;
-	top: -24px;
-    width: 25%;
 	
-	margin-top:56px;
-	 position: fi
 }
 }
 
 	
 @media screen and (max-width:1000px) {
 	
-.logo {
-	 position: absolute;
+.logo img {
+	  position: absolute;
+	top: -24px;;
+    width: 50%;
 
-    width: 100%;
 	margin-top:-36px;
 	 position: fixed;
-}
-
-
-.logo img {
-	 position: absolute;
-	top: -24px;
-    width: 15%;
 	
-	margin-top:40px;
-	 position: fi
 }
 }
-
-	
-	
-@media screen and (max-width:1024px) {
-	
-.logo {
-	 position: absolute;
-
-    width: 100%;
-	margin-top:-36px;
-	 position: fixed;
-}
-
-
-.logo img {
-	 position: absolute;
-	top: -24px;
-    width: 15%;
-	
-	margin-top:40px;
-	 position: fi
-}
-}
-
-	
-
 	
   article {
     flex: 3;
@@ -1066,7 +984,6 @@ footer ul {
   display: flex;
   justify-content: space-around;
 }
-
 
 
 .stepbar {
@@ -1101,10 +1018,9 @@ footer ul {
 	
 .stepbar {
 	  margin:auto;
-  width: 50%;
+  width: 80%;
 	margin-top:30px;
-	border: 4px solid #000
-	border-radius:5%;
+	
 	padding: 20px 25px 20px 25px;
 }
 }
