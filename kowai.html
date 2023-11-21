@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +10,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
 	<link rel="stylesheet" type="text/css" href="css/8-10.css">
-	<link rel="stylesheet" type="text/css" href="css/base3.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
 	<script>
   (function(d) {
     var config = {
@@ -22,18 +21,24 @@
     h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
   })(document);
 </script>
+ <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+   <script>
+   $(function() {
+      const hum = $('#hamburger, .close')
+      const nav = $('.sp-nav')
+      hum.on('click', function(){
+         nav.toggleClass('toggle');
+      });
+   });
+   </script>
 </head>
-
 <body>
-
   <div id="container">
 	       <!-- loading -->
             <div id="loading">
                 <div id="loading_inner">
                    <div class="whiskey-loader">
-   <div id="backTop">
-                <img src="anime/icons8-怖い.gif">
-            </div>
+  
        <div id="info6">
                             <p>
                                
@@ -43,44 +48,45 @@
                 </div>
             </div>
       <header>
-       <div class=logo>
-    <a href="index.html">
-          <img src="サイト素材/home.png" height="120" alt="site-logo2.png">
-        </a>
-  </div>
+
+	
+
+	 <nav class="pc-nav">
+         <ul>
+            <li><a href="index.html">嬉しい</a></li>
+            <li><a href="kyu.html">悲しい</a></li>
+            <li><a href="ikari.html">怒り</a></li>
+            <li><a href="kowai.html">怖い</a></li>
+         </ul>
+      </nav>
+	 <nav class="sp-nav">
+         <ul>
+         <li><a href="index.html">ホーム</a></li>
+            <li><a href="index.html">嬉しい</a></li>
+            <li><a href="kyu.html">悲しい</a></li>
+            <li><a href="ikari.html">怒り</a></li>
+            <li><a href="kowai.html">怖い</a></li>
+            <li class="close"><span>閉じる</span></li>
+         </ul>
+      </nav>
+      <div id="hamburger">
+         <span></span>
+      </div>
             </header>
      
-
- 	<div class="openbtn1"><span></span><span></span><span></span></div> 
-                <nav id="openbtn1">
-		<nav id="g-nav">
-                <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
-                <ul>
-                 <li class="blurTrigger"><li><a href="index.html">ホーム</a></li>  
-                 <li class="blurTrigger"><li><a href="kyu.html">嬉しい</a></li>  
-                 <li class="blurTrigger"><li><a href="kanashii.html">悲しい</a></li>  
-                 <li class="blurTrigger"><li><a href="ikari.html">怒り</a></li>  
-               　<li class="blurTrigger"><li><a href="huann.html">恐れ</a></li>  
-                </ul>
-                </div>
-                </nav>
+ 	
     <main>
-
       
-
         
-	 <div id="gallery">
- <img src="anime/icons8-怖い.gif" alt="ピンのgif">
-
-	</div>
-
 		     
 			 <article>
-	
+	 <div id="gallery">
+ <img src="icons8-怖い.gif" alt="ピンのgif">
+	</div>
 	<div id="info2">
 		<p>
-			このページでは怖いこと、恐怖を軽減出来る方法を体験しています。<br>
-		        怖く感じることが少なくなればストレスも感じなくなると思います。<br>
+			このページでは怖いこと、不安を軽減することが出来る方法を体験しています。<br>
+		        不安な気持ちがなくなればストレスも感じなくなると思います。<br>
 		        好きな項目を選んで気軽に試してみてください。<br>
 			 
 			</p>
@@ -92,25 +98,23 @@
 						
          <div id="info3">
 	    <p>
-		 使用したモチーフ、写真
+		 このページをみて得られる効果は・・・
 	    </p>
              </div>
 				 
 				 
 				<div id="skill" class="about">
-	    <div class="skill"><img src="images/fish.png">
+	    <div class="skill">
 		    <div class="balloon-006">
-			    <p>魚のモチーフ</p></div></div>
-		      <div class="skill"><img src="images/wave.png"><div class="balloon-006"><p>波のモチーフ</p></div></div>
-
+			    <p>➀日常のどんな小さなことでもきっかけを作ることで気分も変わる</p></div></div>
+		
 	
-
-            <div class="skill"><img src="images/puku-logo.png"></a>
+            <div class="skill">
 		    <div class="balloon-006">
-			    <p>ロゴデザイン</p></div></div>
+			    <p>➁体から「楽しい」という信号が送られてくるようにする</p></div></div>
 		 
               
-		  <div class="skill"><img src="images/wave.png"><div class="balloon-006"><p>波のモチーフ</p></div></div>
+		  <div class="skill"><div class="balloon-006"><p>➂まずは体から「楽しい、嬉しい」と幸福感を感じられるようにする</p></div></div>
 		</div>
 	    </div>
    <div id="info4">
@@ -119,44 +123,97 @@
 	</p>
 </div>
 
-    <div class="article__color-all">
-            
-	     </div>
-	     		<ul class="accordion-area">
 
-<li><!--li ~ /li までが一つのアコーディオン-->
-<section>
-<h3 class="title">別のことを考える</h3>
+
+
+  
+<div class="accordion-area">
+
+<div>
+
+<h2> 色々やらなければいけないことで不安になったりするとき
+ どうすれば・・・？</h2>	
+<section> 
+<h3 class="title">目の前のことに集中する</h3>
 <div class="box">
-<p>注意</p>
+<p>人は悩みそのものではなく、その悩みをどう解決するかで悩む・・・<br>
+
+体験・・・何か別のことに集中する機会を作る<br>
+結果・・・気が付くと、何に悩んでいたかをあまり気にならなくなった</p>	
+<img src="サイト素材/kaiketu-1.png">
 </div>
 </section>
-</li>
+</div>
 
-<li>
+<div>
+<h2>日々の生活にストレスを感じた時は・・・？</h2>	 
 <section>
 <h3 class="title">森林浴をする</h3>
 <div class="box">
-<p>内容が入ります。</p>
+<p>一週間に二時間以上自然に触れた人は、そうでない人に
+比べて健康状態や幸福感が良好になるという研究結果がある<br>
+
+体験・・・家の周りの小さな花畑や観葉植物など、一日数分自然を感じる機会を作った<br>
+結果・・・リラックスした気分になり、ストレス度が軽減して気楽に行動できるようになった</p>
 </div>
 </section>
-</li>
+</div>
 
-				<li>
+
+<div>
+<h2>一人でいると物寂しくなる。そんな時は・・・</h2>	 
 <section>
 <h3 class="title">何かを抱きしめる</h3>
 <div class="box">
-<p>内容が入ります。</p>
+<p>
+体験・・・家にあるクッションやぬいぐるみなど、ふわふわしたものを<br>
+抱きしめてみる<br>
+
+結果・・・幸せな気分になり、不安な気持ちが軽減された
+
+</p>
 </div>
 </section>
-</li>
-				
-</ul>
+</div>
+
+<div>
+<h2>どんなに明るくなろうとしても気分が落ち込むときは・・・？</h2>	 
+<section>
+<h3 class="title">ネガティブな感情を認める</h3>
+<div class="box">
+<p>
+体験・・・ネガティブな思考や感情も、受け入れることでより多くの幸福感が得られる<br>
+<br>
+
+結果・・・ネガティブな感情も必要なものなんだと不安に駆られることなく、逆に<br>安心する気持ちに変換する
+	ことができた
+
+</p>
+</div>
+</section>
+</div>
+
+
+<div>
+<h2>一人でいると物寂しくなる。そんな時は・・・</h2>	 
+<section>
+<h3 class="title">何かを抱きしめる</h3>
+<div class="box">
+<p>
+体験・・・家にあるクッションやぬいぐるみなど、ふわふわしたものを<br>
+抱きしめてみる<br>
+
+結果・・・幸せな気分になり、不安な気持ちが軽減された
+
+</p>
+</div>
+</section>
+</div>			
+</div>
 				 </article>
        <aside>
-       <p><span class="smoothText"><span class="smoothTextTrigger">Date.2022.8.21<br>
-          <br>
-     </span></span></p>
+       <p><span class="smoothText"><span class="smoothTextTrigger"><br>
+         </span></span></p>
       </aside>
   
     </main>
@@ -170,7 +227,7 @@
 		  
      <footer>
 		 
-      <h6>&copy; http://www.example.com</h6>   
+      <h6>&copy; 2020-2023　Yui yamaji</h6>   
   
 	  
   </div>  
@@ -181,11 +238,7 @@
 src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
 integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
 crossorigin="anonymous"></script>
-<script src="js/raindrops.js"></script><!--Raindrops.js（https://daniellaharel.com/raindrops/）からダウンロードして使用-->
-<script src="js/5-16.js"></script>
-<script src="js/5-1-15.js"></script>
 <script src="js/8-10.js"></script>
-<script src="js/8-16.js"></script>
-<script src="js/9-2-1.js"></script>
+
 </body>
 </html>
