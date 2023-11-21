@@ -56,7 +56,7 @@ font-style: normal;
 
 
 header {
-   padding: 15px % 10px;
+   padding: 15px 3% 10px;
    position: fixed;
    top: 0;
    width: 100%;
@@ -178,7 +178,7 @@ li {
    }
    .sp-nav li span {
       font-size: 15px;
-      color: #fff;
+      color: #000;
    }
    .sp-nav li a, .sp-nav li span {
       display: block;
@@ -188,6 +188,7 @@ li {
    .sp-nav .close {
       position: relative;
       padding-left: 20px;
+	   color:#000;
    }
    .sp-nav .close::before {
       content: '';
@@ -197,7 +198,7 @@ li {
       display: block;
       width: 16px;
       height: 1px;
-      background: #fff;
+      background: #000;
       transform: rotate( 45deg );
    }
    .sp-nav .close::after {
@@ -282,6 +283,7 @@ article {
  }
 
 article{
+	margin-top:40px;
    max-width:900px;
   color: #696969;
   margin-right: auto;
