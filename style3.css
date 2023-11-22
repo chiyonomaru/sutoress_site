@@ -79,7 +79,7 @@ va {
    color: #fff;
 }
 nav {
-   margin: 0px 40px 0px auto;
+   margin: 0px 80px 0px auto;
 }
 ul {
    list-style: none;
@@ -87,7 +87,7 @@ ul {
    display: flex;
 }
 li {
-   margin: 0 0 0 15px;
+   margin: 0 0 0 14px;
    font-size: 14px;
 	float: left;
 }
