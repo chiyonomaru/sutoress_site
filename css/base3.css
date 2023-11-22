@@ -1,17 +1,17 @@
 
 body {
  
-  background-color: #72a8db;
+  background-color: #9b7ab5;
 	
 }
 
 .skill::before {
 	z-index: 4;
 	width: 15%;
-	background-color: #72a8db;
+	background-color: #9b7ab5;
 }
 .skill::after {
 
 	width: 100%;
-	background: repeating-linear-gradient(45deg, #fff, #fff 2px, #72a8db 2px, #72a8db 4px);
+	background: repeating-linear-gradient(45deg, #fff, #fff 2px, #9b7ab5 2px, #9b7ab5 4px);
 }
