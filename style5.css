@@ -81,7 +81,7 @@ va {
    color: #fff;
 }
 nav {
-   margin: 0px 40px 0px auto;
+   margin: 0px 70px 0px auto;
 }
 ul {
    list-style: none;
@@ -180,7 +180,7 @@ li {
    }
    .sp-nav li span {
       font-size: 15px;
-      color: #000;
+      color: #fff;
    }
    .sp-nav li a, .sp-nav li span {
       display: block;
