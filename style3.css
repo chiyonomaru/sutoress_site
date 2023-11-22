@@ -250,19 +250,39 @@ article {
 
 	
 .logo {
-	wifth:100%;
-	margin-top:-48px;
+	width:100%;
+	margin-top:8px;
 	 position: fixed;
 }
 
 
 .logo img {
-	
-    width: 100%;
-	margin-top:20px;
+	margin-left:-25px;
+    width: 28%;
+	margin-top:25px;
 	 position: fi
 }
 
+
+
+@media screen and (max-width:300px) {
+	
+	
+.logo {
+	width:50%;
+	margin-top:-28px;
+	 position: fixed;
+}
+	
+.logo img {
+	  position: absolute;
+    
+   width:37%;
+	margin-top:-42px;
+	 position: fixed;
+	
+}
+}
 
 #info2 {
   margin: 16px auto;
