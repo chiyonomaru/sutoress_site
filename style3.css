@@ -63,7 +63,7 @@ header {
    background-color: #fff;
    display: flex;
    align-items: center;
-	 z-index: 999;
+   z-index: 999;
 }
 
 
@@ -475,8 +475,8 @@ footer {
   margin-top: 4rem;
   padding: 1.5rem;
   text-align: center;
-
-  color:white;
+  color: #000;
+  background-color: white;
 }
 
 
