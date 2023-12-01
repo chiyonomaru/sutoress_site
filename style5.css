@@ -15,6 +15,7 @@ font-weight: 700;
   font-size: 16px;
   background-color: white;
   display: flex;
+  color:#000;
   align-items: center;
   justify-content: center;
 
@@ -439,6 +440,7 @@ aside {
   font-size: 0.85rem;
   background-color: #EE;
 	margin-top: 20px;
+	color:#000;
 }
 
  
@@ -460,14 +462,14 @@ aside {
 
 #info p {
     font-size: 12px;
-    color: #444;
+    color: #000;
 }
 
 #info2 {
   margin: 16px auto;
 	text-align: center;
 	display: block;
-	border: 1px solid #000
+	
 	border-radius: 20px;
 	margin-bottom:120px;
 }
@@ -475,7 +477,7 @@ aside {
 #info2 p {
   font-size: 16px;
    display: inline-block;
-    color: #444;
+    color: #000;
   text-align: left;
 }
 #info2 p span {
@@ -495,15 +497,15 @@ aside {
 #info4 p {
    text-align: left;
 	display: inline-block;
-	color: #444;
+	color: #000;
 	font-size: 15.5px;
 	 margin-bottom: -40px;
 }
 
 #info4 p span {
-	color: #444;
+	
 	   text-align: left;
-  color: #444;
+ 
    margin-left: px;
  font-size: 13.5px;
 }
@@ -569,7 +571,7 @@ aside {
 .stepbar .stepbarwrap .stepline {
   width: 3px;
   height: calc(100% + 1em);
-  background-color: #000;
+  
   position: absolute;
   top: 1em;
   left: 1.5em;
@@ -678,7 +680,7 @@ article h1 {
 article p {
     margin-top: 1rem;
     margin-bottom: 2rem;
-   color: #696969;
+   color: #000;
 }
 aside  {
 　margin-bottom: 5rem;
@@ -742,6 +744,7 @@ img {
 }
 p {
   text-align: center;
+	
 }
 	
 }
@@ -796,6 +799,7 @@ p {
 }
 p {
   text-align: center;
+	color:#000;
 }
 	
 }
