@@ -221,17 +221,9 @@ li {
    }
 
 	}
-#container {
- 
-    position: relative;
- 
-    width: 100%;
-    margin: auto;
-  }
 
-main {
-  flex-direction: column;
-}
+
+
 article {
   
   padding: 1rem;
@@ -248,37 +240,27 @@ article {
   justify-content: space-around;
 }
 
-	
-.logo {
-	width:100%;
-	margin-top:8px;
+.logo img {
+	 position: absolute;
+	top: -24px;
+    width: 20%;
+
+	margin-top:18px;
 	 position: fixed;
 }
 
-
-.logo img {
-	margin-left:-25px;
-    width: 28%;
-	margin-top:25px;
-	 position: fi
-}
 
 
 
 @media screen and (max-width:300px) {
 	
 	
-.logo {
-	width:50%;
-	margin-top:-28px;
-	 position: fixed;
-}
-	
 .logo img {
 	  position: absolute;
-    
-   width:37%;
-	margin-top:-42px;
+	top: -24px;;
+    width: 30%;
+
+	margin-top:12px;
 	 position: fixed;
 	
 }
@@ -449,11 +431,6 @@ scroll_up ｜下から上へ出現
   
 }
 
-h1 {
-  text-align: left;
-  color: #696969;
-  margin-top: 3rem;
-}
 
 
 article  {
@@ -472,9 +449,7 @@ article span {
 }
 
 
-#article p {
-  text-align: left;
-}
+
 aside h1 {
 　margin-rem;
 }
@@ -499,7 +474,11 @@ footer {
   background-color: white;
 }
 
-
+img {
+  width: 19%;
+  height: auto;
+	margin:auto;
+}
 
 
 #page_top{
@@ -717,6 +696,30 @@ h2:after {
   }
 
 
+
+
+.logo img {
+	  position: absolute;
+    width: 10%;
+    margin:auto;
+	margin-top:25px;
+	 position: fixed;
+	
+}
+
+	
+
+	
+
+
+img {
+  width: 9%;
+  height: auto;
+	margin:auto;
+}
+
+
+
 @media screen and (min-width:1380px) {
    article {
     padding:13rem;
@@ -726,36 +729,40 @@ h2:after {
 	border-radius:3%;
 }
 	
-	
-.logo {
-	 position: absolute;
-
-    width: 100%;
-	margin-top:-36px;
-	 position: fixed;
-}
 
 
 .logo img {
-	
-	top: -24px;
+	  position: absolute;
     width: 10%;
+    margin:auto;
+	margin-top:6px;
+	 position: fixed;
 	
-	margin-top:40px;
-	 position: fi
+}
+
+	
+
+.logo img {
+	  position: absolute;
+    width: 10%;
+    margin:auto;
+	margin-top:6px;
+	 position: fixed;
+	
+}
+
+	
+
+	
+
+
+img {
+  width: 9%;
+  height: auto;
+	margin:auto;
 }
 
 
-
-#gallery {
-  margin:auto;
-  margin-top: 70px;
-  
-  outline: none;
-　border: none;
-  display: flex;
-  justify-content: space-around;
-}
 
 
 		
