@@ -105,7 +105,7 @@ li {
    display: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
    .pc-nav {
       display: none;
    }
@@ -677,7 +677,8 @@ h2:after {
     margin-top: -2rem;
   }
   article {
-    padding:13rem;
+	margin-top:15%;
+    padding:4rem;
     font-size: 1rem;
     padding-left:-2rem;
 	padding-right:-2rem;
@@ -998,7 +999,7 @@ aside p {
   margin-top: 1rem;
   text-align: left;
   color: #696969;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
    margin-left: 1px;
 }
@@ -1016,7 +1017,7 @@ footer {
   margin-top: 4rem;
   padding: 1.5rem;
   text-align: center;
- 
+font-sie:16px;
   color:#000;
 	background-color:#fff;
 }
@@ -1049,7 +1050,7 @@ flex-wrap: wrap;;
 }
 
 .accordion-area>div{
-	width: 46%;
+	width: 45%;
 	margin-left:auto;
 	margin-top:auto;
 	/* margin-right:auto; */
@@ -1065,7 +1066,7 @@ flex-wrap: wrap;;
 .accordion-area section {
 	border: 1px solid #444;
   border: 1px solid #000;
-  width: 65%;
+  width: 85%;
 	
 }
 
@@ -1181,3 +1182,6 @@ h2:after {
   }
 
   
+h6 {
+	font-size:16px;
+}
