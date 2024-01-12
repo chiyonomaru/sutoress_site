@@ -42,9 +42,11 @@
 
 span.smoothText {
 
-  overflow: hidden;
+overflow: hidden;
 
-  display: block;
+display: block;
+
+/* margin: auto; */
 }
 
 
@@ -74,8 +76,6 @@ span.smoothTextTrigger.smoothTextAppear{
 .TextTyping {
   text-align: center;
   margin: 20px 0;
-  font-size: 1.5rem;
-  letter-spacing: .5e
     word-break : break-all;
   font-size:15px;
  
@@ -83,7 +83,8 @@ span.smoothTextTrigger.smoothTextAppear{
 
 .TextTyping {
   text-align: center;
-	margin-top:100px;
+	margin-top:-30px;
+  margin-bottom:40%;
 }
 
 /*========= タイピング ===============*/
@@ -91,6 +92,8 @@ span.smoothTextTrigger.smoothTextAppear{
 .TextTyping p {
   display: none;
   margin-top:40px;
+  font-size:15px;
+  
 }
 
 
@@ -109,17 +112,24 @@ span.smoothTextTrigger.smoothTextAppear{
 　印象編　8-16 テキストが滑らかに出現
 ===================================*/
 
-
-span.smoothText {
-
+.smoothText {
+   
+	width:90%;
+	display: block;
   overflow: hidden;
-
-  display: block;
+ 
+}
+span.smoothText {
+  text-align: left;
+	display: inline-block;
+  font-size:16px;
+   margin:auto;
+  margin-bottom:40%;
 }
 
 
 span.smoothTextTrigger{
-	
+  
   transition: .8s ease-in-out;
 
   transform: translate3d(0,100%,0) skewY(12deg);
@@ -134,6 +144,7 @@ span.smoothTextTrigger.smoothTextAppear{
     
   
   transform: translate3d(0,0,0) skewY(0);
+  
 }
 
 
