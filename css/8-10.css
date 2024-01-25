@@ -83,8 +83,8 @@ span.smoothTextTrigger.smoothTextAppear{
 
 .TextTyping {
   text-align: center;
-	margin-top:-30px;
-  margin-bottom:40%;
+	margin-top:30%;
+  margin-bottom:40px;
 }
 
 /*========= タイピング ===============*/
@@ -120,11 +120,11 @@ span.smoothTextTrigger.smoothTextAppear{
  
 }
 span.smoothText {
-  text-align: left;
+  text-align: center;
 	display: inline-block;
   font-size:16px;
    margin:auto;
-  margin-bottom:40%;
+  margin-top:20%;
 }
 
 
