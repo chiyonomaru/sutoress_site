@@ -968,28 +968,37 @@ footer ul {
     margin:auto;
 	margin-top:6px;
 	 position: fixed;
-	
+	margin-left:-230px;
 }
 
-	
-@media screen and (min-width:800px) {
 
+
+@media screen and (min-width: 768px) {
+	
 .logo img {
 	  position: absolute;
     width: 10%;
     margin:auto;
-	margin-top:6px;
+	margin-top:26px;
 	 position: fixed;
-	
+	margin-left:-30px;
 }
 
 }
-	
-
-	
-
  
-  
+
+@media screen and (min-width: 1024px) {
+	
+.logo img {
+	  position: absolute;
+    width: 9%;
+    margin:auto;
+	margin-top:26px;
+	 position: fixed;
+	margin-left:-90px;
+}
+
+}  
 #gallery {
   margin:auto;
   width: 600px;
@@ -997,7 +1006,7 @@ footer ul {
 　border: none;
  
 }
-
+}
 
 .stepbar {
   margin: 0 auto;
@@ -1005,6 +1014,35 @@ footer ul {
 	margin-top:30px;
 }
 
+
+@media screen and (min-width: 1280px) {
+	
+.logo img {
+	  position: absolute;
+    width: 8%;
+    margin:auto;
+	margin-top:26px;
+	 position: fixed;
+	margin-left:-230px;
+}
+
+}  
+#gallery {
+  margin:auto;
+  width: 600px;
+  outline: none;
+　border: none;
+ 
+}
+}
+
+.stepbar {
+  margin: 0 auto;
+  width: 100%;
+	margin-top:30px;
+}
+
+	
 	
 .grid {
 
