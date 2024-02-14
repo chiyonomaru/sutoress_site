@@ -684,7 +684,7 @@ aside  {
 }
 aside p {
   margin-top: rem;
-  text-align: left;
+  text-align: center;
   color: #696969;
 }
 
@@ -698,14 +698,13 @@ aside p {
 .grid {
   display: grid;
   gap: 65px;
-  grid-template-columns: repeat(3, 200px);
+  grid-template-columns: repeat(4, 200px);
 	margin-bottom:50px;
 	margin-top:40px;
 }
 .item {
   border-radius: 10px;
  
-  padding: 18px;
   text-align: center;
 	
 }
@@ -863,7 +862,7 @@ footer ul {
 .logo img {
 	  position: absolute;
     width: 10%;
-    margin:auto;
+    margin-left:-232px;
 	margin-top:6px;
 	 position: fixed;
 	
@@ -884,11 +883,68 @@ footer ul {
   margin: 0 auto;
   width: 100%;
 	margin-top:30px;
+	fot-size:16px;
+}
+
+.stepbar {
+  margin: 0 auto;
+  width: 67%;
+	margin-top:70px;
+	margin-bottom:40px;
+}
+.stepbar .stepbarwrap {
+  margin: 2em 0;
+  position: relative;
+}
+.stepbar .stepbarwrap .steptitle {
+  display: inline-flex;
+  align-items: center;
+}
+.stepbar .stepbarwrap .steptitle .stepcircle {
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  content: "";
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+.stepbar .stepbarwrap .steptitle .stepcircle span {
+  display: inline-block;
+  line-height: 1.2em;
+  font-size: 0.8em;
+  font-weight: bold;
+  position: relative;
+  top: 0.9em;
+}
+.stepbar .stepbarwrap .steptitle .title {
+  margin: 0.5em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.stepbar .stepbarwrap .steptxt {
+  padding-left: 3.5em;
+}
+.stepbar .stepbarwrap .steptxt .txt {
+  font-size: 15px;
+}
+.stepbar .stepbarwrap .stepline {
+  width: 3px;
+  height: calc(100% + 1em);
+  
+  position: absolute;
+  top: 1em;
+  left: 1.5em;
+  z-index: -1;
+}
+.stepbarwrap:last-of-type .stepline:last-of-type {
+  display: none;
 }
 	
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(198px, 3fr));
+  grid-template-columns: repeat(auto-fit, minmax(198px, 4fr));
 }
 .item {
 	width:100%;
@@ -940,7 +996,7 @@ aside  {
    
 }
 aside p {
-   text-align: left;
+   text-align: center;
 	display: inline-block;
 	color: #444;
 	font-size: 15.5px;
